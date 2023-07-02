@@ -5,10 +5,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  min-height: 100vh;
   font-family: "Cairo", sans-serif;
   font-size: 14px;
-  background-color: $bg-grey;
   color: $subtle-dark;
 }
 ul {
@@ -79,66 +77,6 @@ input {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: $main-color;
+  background-color: $light-green;
 }
 /* end scrollbar */
-.landing-page {
-  height: 100vh;
-}
-
-.rates {
-  .rate {
-    @include flex-center;
-    justify-content: space-between;
-    h2 {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 27px;
-      margin-bottom: 6px;
-      letter-spacing: 0.12px;
-      color: $subtle-dark;
-    }
-    .icon-holder {
-      i,
-      svg {
-        color: $light-gray;
-        font-size: 14.62px;
-        &.active {
-          color: $gold-color;
-        }
-      }
-    }
-    &.special {
-      h2 {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 34px;
-        letter-spacing: 0.004em;
-        margin-bottom: 16px;
-        color: $lg-dark;
-      }
-      .icon-holder {
-        i,
-        svg {
-          font-size: 17.87px;
-        }
-      }
-    }
-  }
-}
-
-.dec {
-  position: fixed;
-  z-index: -11;
-  top: -32px;
-  right: -10px;
-}
-
-.filter-eff {
-  @include flex-center;
-  width: 38px;
-  height: 38px;
-  background: $white-color;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.07);
-  border-radius: 8px;
-}

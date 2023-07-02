@@ -1,2 +1,0 @@
-# frh-template
-frh-template

@@ -1,160 +1,23 @@
-.main-btn {
-  background: $alt-color;
-  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.14);
-  color: white;
-  border-radius: 8px;
-  padding:0.5rem 1rem;
-  outline: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  border: none;
- &.btn-grey {
-  background-color: #EFEFF0;
-  color: $light-gray;
-  background: #EFEFF0;
-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
- }
- .icon {
-  width: 24px;
-  height: auto;
- }
-}
+// btn-back
 .btn-back {
-  font-size: 24px;
-  width: fit-content;
-  margin-right: auto;
-  color: $light-gray;
-  display: block;
-}
-.main-tab {
-  .nav-link {
-    padding: 16.96px 10px !important;
-
-    border-radius: 0 !important;
-    -webkit-border-radius: 0 !important;
-    -moz-border-radius: 0 !important;
-    -ms-border-radius: 0 !important;
-    color: $light-gray !important;
-    -o-border-radius: 0 !important;
-    background: transparent!important;
-    border-bottom: 1.5px solid #EFEFF0!important;
-    &.active {
-      border-bottom: 1px solid $alt-color !important;
-      color: $alt-color !important;
-    }
-  }
+ display: block;
+ margin-bottom: 29px;
+ width: 16px;
+ height: auto;
 }
 
-#btn-more, .btn-show {
-  color: $alt-color;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 27px;
-  letter-spacing: 0.12px;
-  display: inline-block;
-}
-
-.more-work-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 84px;
-  gap: 10px;
-  width: 286px;
-  height: 51px;
-  background: $alt-color;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 27px;
-  letter-spacing: 0.12px;
-  color: #efeff0;
-}
-
-.sections-list {
-  .section-item {
-    .item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      border-bottom: 0.5px solid #afb1b6;
-      padding: 14px 15px;
-      span {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 30px;
-        text-align: right;
-        letter-spacing: 0.16px;
-        color: $subtle-dark;
-      }
-      img {
-        width: 17px;
-      }
-      &:hover {
-        background-color: #efeff0;
-      }
-    }
-  }
-}
-
-.profile-page-list {
-  .page-item {
-    .item {
-      background-color: #f4f4f4;
-      @include flex-center;
-      justify-content: space-between;
-      padding: 14px 15px;
-      .prevent {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        .name-page {
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 27px;
-          letter-spacing: 0.12px;
-          color: $subtle-dark;
-        }
-      }
-      &:hover {
-        background-color: #fcfcfc;
-      }
-    }
-  }
-}
-
-.btn-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 16px;
-  gap: 5.6px;
-  font-size: 12px;
-  color: white;
-  background-color: $light-gray;
-  border: 0;
-  outline: 0;
-  border-radius: 8px;
-}
-
-.btn-contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 6px 32px;
-  width: 99px;
-  height: 35px;
-  background: #fbfbfb;
-  border: 1px solid $main-color;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 23px;
-  text-align: right;
-  letter-spacing: 0.12px;
-  color: $main-color;
+// main-btn
+.main-btn {
+ color: $white-color;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.193px;
+display: flex;
+padding: 5px 1rem;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+background: $light-green;
 }
