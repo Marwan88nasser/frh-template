@@ -1,0 +1,105 @@
+// reset all element
+@mixin reset-all {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+// reset ul element
+@mixin reset-ul {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+// reset a element
+@mixin a-reset {
+  text-decoration: none;
+  color: $black-color;
+  &:hover {
+    color: $black-color;
+  }
+}
+// centring element by flex
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// centring element by flex between
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+// Full Width And height
+@mixin Full-w-h {
+    width: 100%;
+    height: 100%;
+}
+// centering element by position & transform
+@mixin center-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+// reset position
+@mixin reset-position {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+// reset circle
+@mixin circle($width, $height) {
+    width: $width;
+    height: $height;
+    border-radius: 50%;
+}
+//Edit Element On Different Screens
+//min media
+@mixin minWidth($size) {
+  @if $size == sm {
+      @media (min-width: 576px) {
+          @content;
+      }
+  } @else if $size == md {
+      @media (min-width: 768px) {
+          @content;
+      }
+  } @else if $size == lg {
+      @media (min-width: 992px) {
+          @content;
+      }
+  } @else if $size == xl {
+      @media (min-width: 1200px) {
+          @content;
+      }
+  } @else if $size == xll {
+      @media (min-width: 1400px) {
+          @content;
+      }
+  }
+}
+//max media
+@mixin maxWidth($size) {
+  @if $size == xs {
+      @media (max-width: 575.98px) {
+          @content;
+      }
+  } @else if $size == sm {
+      @media (max-width: 767.98px) {
+          @content;
+      }
+  } @else if $size == md {
+      @media (max-width: 991.98px) {
+          @content;
+      }
+  } @else if $size == lg {
+      @media (max-width: 1199.98px) {
+          @content;
+      }
+  } @else if $size == xl {
+      @media (max-width: 1399.98px) {
+          @content;
+      }
+  }
+}
