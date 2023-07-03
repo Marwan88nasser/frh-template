@@ -1,0 +1,84 @@
+// box-inp
+.box-inp {
+    border-radius: 6px;
+    border: 0.3px solid $border-color;
+    display: flex;
+    align-items: stretch;
+    .inp {
+        direction: rtl !important;
+        border-radius: 6px;
+        flex: 1;
+        color: $black;
+        line-height: normal;
+        display: block;
+        font-size: 14px;
+        border: 0;
+        font-weight: 400;
+        padding: 11px 12px;
+        &::placeholder {
+            font-size: 13px;
+            color: $light-text-2;
+        }
+    }
+    .show-pass {
+     background-color: transparent;
+     border: 0;
+     outline: 0;
+     margin-left: 12px;
+     img {
+      width: 20px;
+      height: auto;
+     }
+    }
+    .dropdown {
+        display: flex;
+        align-items: center;
+        margin-left: 12px;
+        border-right: 1px solid $border-color;
+        .dropdown-toggle {
+            display: flex;
+            align-items: center;
+            .img {
+                width: 36px;
+                height: auto;
+            }
+            .arrow {
+                margin: 0 5px;
+                width: 12px;
+                height: auto;
+            }
+            &::after {
+                display: none;
+            }
+        }
+        .dropdown-menu {
+            min-width: fit-content !important;
+            .dropdown-item {
+                .img {
+                    width: 50px;
+                    display: block;
+                    margin: 0 auto;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+// check-box
+.check-box {
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ color: $black;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+}
+
+// main-check
+.main-check {
+ accent-color: #00a39e;
+ width: 14px;
+ height: 14px;
+}

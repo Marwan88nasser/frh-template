@@ -1,0 +1,36 @@
+.page-auth {
+    .box-text {
+        text-align: center;
+        .title {
+            color: $dark-title;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.41px;
+        }
+        .text {
+            color: $light-text;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.41px;
+        }
+    }
+    .img-bg {
+        width: 196px;
+        height: auto;
+        margin: 10px auto 33px;
+        display: block;
+        max-width: 100%;
+    }
+    .main-btn {
+        margin: 30px 0 26px;
+        font-size: 20px;
+        padding: 5px 1rem;
+    }
+    &.section-login {
+        .main-btn {
+            margin-top: 49px;
+        }
+    }
+}

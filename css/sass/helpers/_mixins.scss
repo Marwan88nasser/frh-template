@@ -13,9 +13,9 @@
 // reset a element
 @mixin a-reset {
   text-decoration: none;
-  color: $black-color;
+  color: $black;
   &:hover {
-    color: $black-color;
+    color: $black;
   }
 }
 // centring element by flex

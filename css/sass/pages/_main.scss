@@ -3,7 +3,7 @@
     background-color: white;
     min-height: 100vh;
     &.splashScreen-1 {
-        padding-top: calc(29px + 15px + 1rem) !important;
+        padding-top: calc(19px + 15px + 1rem) !important;
     }
     .logo-img {
         width: 175px;
@@ -11,6 +11,7 @@
     }
     .img-bg {
         width: 100%;
+        margin-top: 10px;
         max-width: 322px;
         height: auto;
         border-radius: 4px;
@@ -38,7 +39,7 @@
         max-width: 308px;
         margin: 0 auto 40px;
         .title {
-            color: $dark-title-color;
+            color: $dark-title;
             font-size: 20px;
             margin-bottom: 1rem;
             font-weight: 600;
@@ -47,7 +48,7 @@
             font-size: 16px;
             line-height: normal;
             font-weight: 400;
-            color: $subtle-dark;
+            color: $light-text;
         }
     }
     .btn-arr {
@@ -68,17 +69,9 @@
         letter-spacing: 0.41px;
         text-decoration-line: underline;
     }
-    .account {
-        color: rgba(0, 0, 0, 0.7);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: 27px;
-        letter-spacing: 0.193px;
-        a {
-            color: $black-color;
-        }
+    .main-btn {
+        font-size: 20px;
+        padding: 5px 1rem;
     }
     &.welcome {
         .logo-img {
@@ -97,7 +90,7 @@
             }
             .text {
                 letter-spacing: -0.5px;
-                color: $subtle-dark;
+                color: $light-text;
             }
         }
     }

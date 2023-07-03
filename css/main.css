@@ -15,8 +15,12 @@
   min-height: 100vh;
 }
 
-.light-green {
+.text-light-green {
   color: #0ABAB5;
+}
+
+.text-red {
+  color: rgba(254, 17, 17, 0.98);
 }
 
 .fs-12 {
@@ -30,24 +34,139 @@
 
 .btn-back {
   display: block;
-  margin-bottom: 29px;
+  margin-bottom: 19px;
   width: 16px;
   height: auto;
 }
 
 .main-btn {
-  color: white;
-  font-size: 20px;
+  color: white !important;
+  font-size: 18px;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.193px;
+  width: 100%;
   display: flex;
-  padding: 5px 1rem;
+  padding: 7px 1rem;
   justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 6px;
   background: #0ABAB5;
+}
+
+.link-account {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 27px;
+  letter-spacing: 0.193px;
+}
+.link-account a {
+  color: black;
+}
+
+.reset-link {
+  color: #8F8F8F;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.mian-label {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  line-height: normal;
+}
+
+.box-inp {
+  border-radius: 6px;
+  border: 0.3px solid rgba(88, 88, 88, 0.5411764706);
+  display: flex;
+  align-items: stretch;
+}
+.box-inp .inp {
+  direction: rtl !important;
+  border-radius: 6px;
+  flex: 1;
+  color: black;
+  line-height: normal;
+  display: block;
+  font-size: 14px;
+  border: 0;
+  font-weight: 400;
+  padding: 11px 12px;
+}
+.box-inp .inp::-moz-placeholder {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.box-inp .inp::placeholder {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.box-inp .show-pass {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  margin-left: 12px;
+}
+.box-inp .show-pass img {
+  width: 20px;
+  height: auto;
+}
+.box-inp .dropdown {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  border-right: 1px solid rgba(88, 88, 88, 0.5411764706);
+}
+.box-inp .dropdown .dropdown-toggle {
+  display: flex;
+  align-items: center;
+}
+.box-inp .dropdown .dropdown-toggle .img {
+  width: 36px;
+  height: auto;
+}
+.box-inp .dropdown .dropdown-toggle .arrow {
+  margin: 0 5px;
+  width: 12px;
+  height: auto;
+}
+.box-inp .dropdown .dropdown-toggle::after {
+  display: none;
+}
+.box-inp .dropdown .dropdown-menu {
+  min-width: -moz-fit-content !important;
+  min-width: fit-content !important;
+}
+.box-inp .dropdown .dropdown-menu .dropdown-item .img {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+.check-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main-check {
+  accent-color: #00a39e;
+  width: 14px;
+  height: 14px;
 }
 
 * {
@@ -121,35 +240,45 @@ input:focus::placeholder {
   margin: unset !important;
 }
 
-/* start scrollbar */
-::-webkit-scrollbar {
-  width: 7px;
+.page-auth .box-text {
+  text-align: center;
+}
+.page-auth .box-text .title {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.41px;
+}
+.page-auth .box-text .text {
+  color: #8F8F8F;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.41px;
+}
+.page-auth .img-bg {
+  width: 196px;
+  height: auto;
+  margin: 10px auto 33px;
+  display: block;
+  max-width: 100%;
+}
+.page-auth .main-btn {
+  margin: 30px 0 26px;
+  font-size: 20px;
+  padding: 5px 1rem;
+}
+.page-auth.section-login .main-btn {
+  margin-top: 49px;
 }
 
-::-webkit-scrollbar-track {
-  background-color: rgba(246, 246, 246, 0.9647058824);
-  box-shadow: 0 0 2px #ddd inset;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #0ABAB5;
-}
-
-/* end scrollbar */
 .page-splashScreen {
   background-color: white;
   min-height: 100vh;
 }
 .page-splashScreen.splashScreen-1 {
-  padding-top: calc(44px + 1rem) !important;
+  padding-top: calc(34px + 1rem) !important;
 }
 .page-splashScreen .logo-img {
   width: 175px;
@@ -157,6 +286,7 @@ input:focus::placeholder {
 }
 .page-splashScreen .img-bg {
   width: 100%;
+  margin-top: 10px;
   max-width: 322px;
   height: auto;
   border-radius: 4px;
@@ -215,17 +345,9 @@ input:focus::placeholder {
   letter-spacing: 0.41px;
   text-decoration-line: underline;
 }
-.page-splashScreen .account {
-  color: rgba(0, 0, 0, 0.7);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 27px;
-  letter-spacing: 0.193px;
-}
-.page-splashScreen .account a {
-  color: black;
+.page-splashScreen .main-btn {
+  font-size: 20px;
+  padding: 5px 1rem;
 }
 .page-splashScreen.welcome .logo-img {
   margin-top: 58px;
