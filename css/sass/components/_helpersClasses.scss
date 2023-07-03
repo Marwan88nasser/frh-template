@@ -14,12 +14,21 @@
 .text-light-green {
   color: $light-green;
 }
+.text-light-red {
+  color: $light-red;
+}
 .text-red {
-  color: $red;
+  color: $red !important;
+}
+.bg-red {
+  background-color: $red !important;
 }
 .fs-12 {
   font-size: 12px;
 }
 .w-fit {
   width: fit-content;
+}
+.main-section {
+  padding: 1rem 0;
 }

@@ -2,8 +2,18 @@
 .btn-back {
  display: block;
  margin-bottom: 19px;
- width: 16px;
- height: auto;
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+ color: $dark-title;
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.5px;
+ .icon {
+    width: 16px;
+    height: auto;
+ }
 }
 
 // main-btn

@@ -1,0 +1,32 @@
+
+.main-header {
+    z-index: 999;
+    background-color: $white;
+    padding: 14px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $height-header;
+    .container-md {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .btn-header {
+            display: block;
+            .img {
+                width: 24px;
+                height: auto;
+            }
+        }
+        .title {
+            color: $dark-title;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+    & + section ,& + div {
+     padding-top: calc($height-header + 7px) !important;
+    }
+}

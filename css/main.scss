@@ -2,14 +2,16 @@
 @import "./sass/variables/colors";
 // Use transitions
 @import "./sass/variables/transitions";
-// Use animations
-@import "./sass/variables/animations";
+// Use _size
+@import "./sass/variables/_size";
 // Use Mixins
 @import "./sass/helpers/mixins";
 // Use helper sClasses
 @import "./sass/components/helpersClasses";
 // Use dropdowns & Buttons
 @import "./sass/components/dropdowns&Buttons";
+// Use badges
+@import "./sass/components/badges";
 // Use headings
 @import "./sass/components/headings";
 // Use boxes

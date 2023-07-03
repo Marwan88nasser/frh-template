@@ -21,14 +21,14 @@
         }
     }
     .show-pass {
-     background-color: transparent;
-     border: 0;
-     outline: 0;
-     margin-left: 12px;
-     img {
-      width: 20px;
-      height: auto;
-     }
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        margin-left: 12px;
+        img {
+            width: 20px;
+            height: auto;
+        }
     }
     .dropdown {
         display: flex;
@@ -65,20 +65,47 @@
     }
 }
 
+// box-search
+.box-search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 14px;
+    padding-right: 11px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    width: 100%;
+    img.img {
+        width: 24px;
+        height: auto;
+    }
+    input {
+        padding: 11px 0 11px 11px;
+        background-color: transparent;
+        border: 0;
+        flex: 1;
+        color: #adadad;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.5px;
+    }
+}
+
 // check-box
 .check-box {
- display: flex;
- align-items: center;
- gap: 8px;
- color: $black;
-font-size: 14px;
-font-weight: 400;
-line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
 }
 
 // main-check
 .main-check {
- accent-color: #00a39e;
- width: 14px;
- height: 14px;
+    accent-color: #00a39e;
+    width: 14px;
+    height: 14px;
 }
