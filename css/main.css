@@ -325,11 +325,34 @@
   line-height: 20px;
 }
 
+.boxes-ask {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.boxes-ask .box .title {
+  margin: 0;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.boxes-ask .box .text {
+  margin: 0;
+  color: #1D3145;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
 .box-inp {
   border-radius: 6px;
   border: 0.3px solid rgba(88, 88, 88, 0.5411764706);
   display: flex;
   align-items: stretch;
+  position: relative;
 }
 .box-inp .inp {
   direction: rtl !important;
@@ -350,6 +373,12 @@
 .box-inp .inp::placeholder {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.4);
+}
+.box-inp select.inp {
+  padding-left: 32px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 .box-inp textarea.inp {
   height: 120px;
@@ -395,6 +424,14 @@
   display: block;
   margin: 0 auto;
   height: auto;
+}
+.box-inp .arrow {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  width: 20px;
+  height: auto;
+  transform: translateY(-50%);
 }
 
 .box-search {
@@ -749,4 +786,23 @@ input:focus::placeholder {
 }
 .page-editPass .main-btn {
   margin-top: 82px;
+}
+
+.page-notifications .notNotifications {
+  height: calc(100vh - 33px - 4rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 46px;
+}
+.page-notifications .notNotifications .bg-img {
+  height: auto;
+  width: 119px;
+}
+.page-notifications .notNotifications .text {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=main.css.map */

@@ -194,3 +194,26 @@
     }
 }
 // End page-editPass
+
+// Start page-page-notifications
+.page-notifications {
+    .notNotifications {
+        height: calc(100vh - 33px - 4rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 46px;
+        .bg-img {
+            height: auto;
+            width: 119px;
+        }
+        .text {
+            color: $primary-400;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+// End page-page-notifications

@@ -25,27 +25,24 @@
     </head>
     <body>
         <!-- start section -->
-        <section class="page-auth section-login main-section">
+        <section class="page-cerateTickets main-section">
             <div class="container-md">
-                <a href="./splashScreen5.html" class="btn-back">
+                <a href="./tickets.html" class="btn-back">
                     <img src="./img/icons/back-arrow.svg" alt="" class="icon" />
+                    إنشاء تذكرة
                 </a>
-                <div class="box-text">
-                    <h4 class="title">إنشاء حساب!</h4>
-                    <p class="text">يرجى ملئ الحقول لإنشاء الحساب</p>
-                </div>
-                <img src="./img/login.png" class="img-bg" alt="" />
                 <form action="">
                     <div class="mb-3">
                         <label for="" class="mian-label"
-                            >البريد الالكتروني / رقم الهاتف
-                            <span class="text-light-red">*</span></label
+                            >عنوان التذكرة<span class="text-light-red"
+                                >*</span
+                            ></label
                         >
                         <div class="box-inp">
                             <input
                                 type="text"
                                 class="inp"
-                                placeholder="الرجاء إدخال البريد الالكتروني/ رقم الهاتف هنا"
+                                placeholder="عنوان التذكرة هنا"
                                 name=""
                                 id=""
                             />
@@ -53,46 +50,34 @@
                     </div>
                     <div class="mb-3">
                         <label for="" class="mian-label"
-                            >كلمة المرور
-                            <span class="text-light-red">*</span></label
+                            >نوع التذكرة<span class="text-light-red"
+                                >*</span
+                            ></label
                         >
                         <div class="box-inp">
-                            <input
-                                type="password"
-                                class="inp inp-pass"
-                                placeholder="يرجى كتابة كلمة المرور هنا"
-                                name=""
-                                id=""
-                            />
-                            <button
-                                type="button"
-                                onclick="showPass('.inp-pass')"
-                                class="show-pass"
-                            >
-                                <img src="./img/icons/eye.svg" alt="" />
-                            </button>
+                            <select name="" class="inp" id="">
+                             <option value="" selected disabled>اختر نوع التذكرة</option>
+                             <option value="">Test1</option>
+                             <option value="">Test2</option>
+                            </select>
+                            <img src="./img/icons/chevron-down.svg" alt="" class="arrow">
                         </div>
                     </div>
-                    <div
-                        class="d-flex align-items-center justify-content-between"
-                    >
-                        <div class="check-box">
-                            <input
-                                type="checkbox"
-                                class="main-check"
+                    <div class="mb-4">
+                        <label for="" class="mian-label"
+                            >الوصف
+                            ></label
+                        >
+                        <div class="box-inp">
+                            <textarea
                                 name=""
-                                id=""
-                            />
-                            تذكرني
+                                class="inp"
+                                maxlength="200"
+                                placeholder="اكتب الوصف هنا ......"
+                            ></textarea>
                         </div>
-                        <a href="./resetPassword1.html" class="reset-link">
-                            نسيت كلمة المرور ؟
-                        </a>
                     </div>
-                    <button type="submit" class="main-btn">تسجيل دخول</button>
-                    <div class="link-account">
-                        هل لديك حساب؟ <a href="./register.html">إنشاء حساب</a>
-                    </div>
+                    <button type="submit" class="main-btn">استمرار</button>
                 </form>
             </div>
         </section>
