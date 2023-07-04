@@ -8,7 +8,7 @@
         direction: rtl !important;
         border-radius: 6px;
         flex: 1;
-        color: $black;
+        color: $light-text-3;
         line-height: normal;
         display: block;
         font-size: 14px;
@@ -19,6 +19,9 @@
             font-size: 13px;
             color: $light-text-2;
         }
+    }
+    textarea.inp {
+        height: 120px;
     }
     .show-pass {
         background-color: transparent;

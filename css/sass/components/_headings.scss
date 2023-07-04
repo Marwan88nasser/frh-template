@@ -4,4 +4,24 @@ font-size: 16px;
 font-weight: 500;
 margin-bottom: 8px;
 line-height: normal;
+.small {
+ font-size: 13px;
+ color: $light-text-3;
+}
+}
+
+.main-title {
+ color: $black;
+ font-size: 16px;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 21px;
+}
+
+.main-text {
+ color: $light-text;
+font-size: 14px;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 15px;
 }

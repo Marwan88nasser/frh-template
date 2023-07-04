@@ -96,3 +96,101 @@
     }
 }
 // end page-splashScreen
+
+// Start page-myData
+.page-myData {
+    .data-user {
+        margin-bottom: 67px;
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+}
+// End page-myData
+
+// Start page-profile
+.page-profile {
+    .data-user {
+        margin-bottom: 23px;
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+    .box-text {
+        margin-bottom: 24px;
+        .title {
+            color: $black;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: normal;
+        }
+        .text {
+            color: #949494;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+// End page-profile
+
+// Start page-resetPass
+.page-resetPass {
+    .main-btn {
+        margin-top: 125px;
+    }
+    .bg-img {
+        width: 136px;
+        height: auto;
+        margin: 68px auto 103px;
+        display: block;
+    }
+    .box-text {
+        .title {
+            color: $light-text;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .text {
+            color: $light-text;
+            margin-right: auto;
+            margin-left: auto;
+            font-size: 16px;
+            max-width: 288px;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+    .link-skip {
+        color: $light-text;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+    .text-small {
+        font-weight: 600;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+    .link-reset {
+        color: $light-green;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: underline;
+        margin: 20px 0 30px;
+        display: block;
+    }
+}
+// End page-resetPass
+
+// Start page-editPass
+.page-editPass {
+    .main-text {
+        margin-bottom: 32px;
+    }
+    .main-btn {
+        margin-top: 82px;
+    }
+}
+// End page-editPass
