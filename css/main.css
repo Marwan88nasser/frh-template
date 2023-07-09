@@ -106,7 +106,7 @@
   justify-content: center;
   border-radius: 18px;
   border: 1px solid #F3F3F3;
-  background: #f75555;
+  background: #ED3A3A;
   color: #F3F3F3;
   font-size: 12px;
   font-weight: 600;
@@ -115,7 +115,7 @@
 .main-badge.badge-float {
   position: absolute;
   right: -8px;
-  top: -5px;
+  top: -8px;
 }
 
 .mian-label {
@@ -161,31 +161,66 @@
   height: auto;
 }
 
+.dep-slider {
+  margin-bottom: 21px;
+}
+.dep-slider .swiper-wrapper {
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+}
+.dep-slider .swiper-wrapper .swiper-slide {
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+.dep-slider .swiper-wrapper .swiper-slide a {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  padding: 1px 10px;
+  border-radius: 4px;
+  border: 0.5px solid #0abab5;
+  color: #0abab5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.dep-slider .swiper-wrapper .swiper-slide a.active {
+  background-color: #0abab5;
+  color: white;
+}
+
 .header-section {
   display: flex;
   align-items: center;
+  margin-bottom: 14px;
   justify-content: space-between;
 }
 .header-section .title {
   color: #000;
   font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+.header-section .a-icon {
+  color: #000;
+  font-size: 18px;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.header-section .main-btn {
-  padding: 3px 9px;
-  border-radius: 4px;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: white;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: normal;
-}
-.header-section .main-btn .img {
-  width: 14px;
+.header-section .a-icon .icon {
+  width: 24px;
   height: auto;
+}
+.header-section .link {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .data-user {
@@ -407,7 +442,7 @@
   width: 36px;
   height: auto;
 }
-.box-inp .dropdown .dropdown-toggle .arrow {
+.box-inp .dropdown .dropdown-toggle .arrow-drop {
   margin: 0 5px;
   width: 12px;
   height: auto;
@@ -438,9 +473,9 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-bottom: 14px;
+  margin-bottom: 19px;
   padding-right: 11px;
-  border-radius: 4px;
+  border-radius: 28px;
   background-color: #f8f8f8;
   width: 100%;
 }
@@ -540,6 +575,10 @@ input:focus::placeholder {
   transition: 0.3s;
 }
 
+.container-md {
+  padding: 0 16px !important;
+}
+
 .modal-header .modal-title {
   font-size: 15px !important;
 }
@@ -575,6 +614,32 @@ input:focus::placeholder {
   margin: 30px 0 26px;
   font-size: 20px;
   padding: 5px 1rem;
+}
+.page-auth .btns-type {
+  margin-top: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.page-auth .btns-type .btn-type {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 257px;
+  border-radius: 6px;
+  border: 1px solid #0abab5;
+  color: #0abab5;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.193px;
+}
+.page-auth .btns-type .btn-type .icon {
+  width: 32px;
+  height: auto;
 }
 .page-auth.section-login .main-btn {
   margin-top: 49px;

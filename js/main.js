@@ -8,13 +8,17 @@ function showPass(ele) {
   }
 }
 
-// landing-slider
-var swiper = new Swiper(".landing-slider", {
-  slidesPerView: 1.05,
-  spaceBetween: 7,
-  loop: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
+// sliders
+// var swiper = new Swiper(".landing-slider", {
+//   slidesPerView: 1.05,
+//   spaceBetween: 7,
+//   loop: true,
+//   autoplay: {
+//     delay: 2500,
+//     disableOnInteraction: false,
+//   },
+// });
+var swiper = new Swiper(".dep-slider", {
+  slidesPerView: "auto",
+  spaceBetween: 6,
 });

@@ -7,14 +7,14 @@ align-items: center;
 justify-content: center;
 border-radius: 18px;
 border: 1px solid #F3F3F3;
-background: $alerts-status-error;
+background: $state-colors-error;
 color: #F3F3F3;
 font-size: 12px;
 font-weight: 600;
 line-height: 10px;
 &.badge-float {
  position: absolute;
- right: -8px;
- top: -5px;
+ right: calc(-8px);
+ top: calc(-8px);
 }
 }
