@@ -1,0 +1,47 @@
+.menu-footer {
+ border-radius: 12px 12px 0px 0px;
+ height: 53px;
+ z-index: 999;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ left: 0;
+ background: #FCFCFC;
+ .container-md {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .item {
+   padding: 18px 17px 11px;
+   position: relative;
+   &::before {
+    content: "";
+    width: 100%;
+    border-radius: 1px;
+    left: 0;
+    top:0;
+    height: 3px;
+    position: absolute;
+    display: block;
+    background-color: $light-green;
+    transition: 300ms;
+    opacity: 0;
+   }
+   .icon {
+    width: 24px;
+    height: auto;
+   }
+   .main-badge {
+    background-color: #F75555 !important;
+   }
+   &.active {
+    &::before {
+     opacity: 1;
+    }
+    .icon {
+     filter: invert(0.5) sepia(1) saturate(3) hue-rotate(131deg);
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 21" width="22" height="21">
+	<title>State=Rest-svg</title>
+	<style>
+		.s0 { fill: #757575 } 
+	</style>
+	<path id="Layer" class="s0" d="m0.8 9.5h20.4c0.2 0 0.3-0.3 0.2-0.4l-9.7-8.6c-0.4-0.4-1-0.4-1.4 0l-9.7 8.6c-0.1 0.1 0 0.4 0.2 0.4z"/>
+	<path id="Layer" class="s0" d="m2.6 7.8c0-0.6 0.4-1 1-1h4c0.6 0 1 0.4 1 1v11.2c0 0.6-0.4 1-1 1h-4c-0.6 0-1-0.4-1-1z"/>
+	<path id="Layer" class="s0" d="m13.4 7.8c0-0.6 0.4-1 1-1h4c0.6 0 1 0.4 1 1v11.2c0 0.6-0.4 1-1 1h-4c-0.6 0-1-0.4-1-1z"/>
+	<path id="Layer" class="s0" d="m16.4 6.8c0.7 0 1.2 0.5 1.2 1.2v3.7c0 0.6-0.5 1.2-1.2 1.2h-10.8c-0.7 0-1.2-0.6-1.2-1.2v-3.7c0-0.7 0.5-1.2 1.2-1.2z"/>
+</svg>
