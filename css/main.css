@@ -557,31 +557,31 @@
   letter-spacing: -0.5px;
 }
 
-.box-item-data-data {
+.box-item-data {
   display: flex;
   flex-direction: column;
   gap: 8px;
   padding: 8px 0;
   margin-bottom: 32px;
 }
-.box-item-data-data .item {
+.box-item-data .item {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.box-item-data-data .item .title {
+.box-item-data .item .title {
   color: #212121;
   font-size: 16px;
   font-weight: 600;
   line-height: 140%;
 }
-.box-item-data-data .item .content {
+.box-item-data .item .content {
   color: #101010;
   font-size: 18px;
   font-weight: 700;
   line-height: normal;
 }
-.box-item-data-data .item .content.yellow {
+.box-item-data .item .content.yellow {
   color: #DE7800;
 }
 
@@ -611,6 +611,11 @@
 .box-inp .inp::placeholder {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.4);
+}
+.box-inp .inp-ph {
+  border-radius: 6px;
+  border: 0.3px solid var(--585858, #585858);
+  background: #fff;
 }
 .box-inp select.inp {
   padding-left: 32px;
@@ -1032,6 +1037,16 @@ input:focus::placeholder {
   font-weight: 400;
   line-height: normal;
 }
+.page-profile .box-text .head {
+  color: #6a6a6a;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 30px 0;
+}
 
 .page-resetPass .main-btn {
   margin-top: 125px;
@@ -1104,11 +1119,22 @@ input:focus::placeholder {
   font-weight: 400;
   line-height: normal;
 }
+.page-notifications .btn-profile {
+  margin: 20px 0;
+}
+.page-notifications .btn-profile a {
+  padding: 10px;
+  color: #0abab5;
+  border: #0abab5 2px solid;
+  border-radius: 5px;
+  margin: 20px 0;
+  background-color: #fff;
+}
 
 .client-balance .main-text {
   letter-spacing: -0.5px;
 }
-.client-balance .box-item-data-data {
+.client-balance .box-item-data {
   margin-bottom: 32px;
 }
 .client-balance .btn-balance {
