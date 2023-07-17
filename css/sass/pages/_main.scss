@@ -217,3 +217,35 @@
     }
 }
 // End page-page-notifications
+
+// Start client-balance
+.client-balance {
+    .main-text {
+        letter-spacing: -0.5px;
+    }
+    .box-item {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px 0;
+        margin-bottom: 32px;
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .title {
+                color: #212121;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 140%;
+            }
+            .content {
+                color: #101010;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+}
+// End client-balance

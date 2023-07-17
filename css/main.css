@@ -949,6 +949,34 @@ input:focus::placeholder {
   line-height: normal;
 }
 
+.client-balance .main-text {
+  letter-spacing: -0.5px;
+}
+.client-balance .box-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 0;
+  margin-bottom: 32px;
+}
+.client-balance .box-item .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.client-balance .box-item .item .title {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+}
+.client-balance .box-item .item .content {
+  color: #101010;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .menu-footer {
   border-radius: 12px 12px 0px 0px;
   height: 53px;
