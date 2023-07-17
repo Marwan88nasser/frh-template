@@ -292,6 +292,37 @@
   margin: 0 20px;
   color: #838383;
 }
+.data-user .btn-profile {
+  margin: 20px 0;
+}
+.data-user .btn-profile a {
+  padding: 10px;
+  color: #0abab5;
+  border: #0abab5 2px solid;
+  border-radius: 5px;
+  margin: 20px 0;
+  background-color: #fff;
+}
+.data-user .text-content h3 {
+  color: #000;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.data-user .text-content p {
+  color: #757575;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
 
 .menu-settings {
   display: grid;
