@@ -19,18 +19,33 @@ letter-spacing: -0.5px;
 // main-btn
 .main-btn {
  color: $white !important;
-font-size: 18px;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.193px;
-width: 100%;
-display: flex;
+ font-size: 18px;
+ font-weight: 600;
+ line-height: normal;
+ letter-spacing: 0.193px;
+ width: 100%;
+ display: flex;
 padding: 7px 1rem;
 justify-content: center;
 align-items: center;
 gap: 10px;
 border-radius: 6px;
 background: $light-green;
+&.border-color {
+    background: transparent;
+    color: $light-green !important;
+    border: 1px solid $light-green;
+}
+&.btn-float {
+    position: fixed;
+    left: 1rem;
+    width: calc(100% - 2rem);
+    bottom: 1rem;
+}
+img, .icon {
+    width: 24px;
+    height: auto;
+}
 }
 
 // link-account

@@ -79,6 +79,16 @@
         height: auto;
         transform: translateY(-50%);
     }
+    .dollar {
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+        padding-left: 12px;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 // box-search
@@ -121,7 +131,30 @@
 
 // main-check
 .main-check {
-    accent-color: #00a39e;
+    accent-color: #00a39e21;
     width: 14px;
     height: 14px;
+}
+
+// group-inp-date
+.group-inp-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        .box-inp {
+            .inp {
+                padding: 6px !important;
+                &::-webkit-calendar-picker-indicator {
+                    color: transparent;
+                    background: url("../img/icons/calendar-date.svg");
+                    z-index: 1;
+                }
+            }
+        }
+    }
 }

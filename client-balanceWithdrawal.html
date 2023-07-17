@@ -25,59 +25,47 @@
     </head>
     <body>
         <!-- start section -->
-        <section class="page-cerateTickets main-section">
+        <section class="client-balanceWithdrawal main-section">
             <div class="container-md">
-                <a href="./tickets.html" class="btn-back">
+                <a href="./resetPassword3.html" class="btn-back">
                     <img src="./img/icons/back-arrow.svg" alt="" class="icon" />
-                    إنشاء تذكرة
+                    سحب الرصيد
                 </a>
-                <form action="">
-                    <div class="mb-3">
+                <form action="" class="mt-5">
+                    <div class="mb-4">
                         <label for="" class="mian-label"
-                            >عنوان التذكرة<span class="text-light-red"
-                                >*</span
-                            ></label
+                            >المبلغ
+                            <span class="text-light-red">*</span></label
                         >
                         <div class="box-inp">
                             <input
-                                type="text"
-                                class="inp"
-                                placeholder="عنوان التذكرة هنا"
+                                type="number"
+                                class="inp inp-pass"
+                                placeholder="أدخل المبلغ هنا"
                                 name=""
                                 id=""
                             />
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="" class="mian-label"
-                            >نوع التذكرة<span class="text-light-red"
-                                >*</span
-                            ></label
-                        >
-                        <div class="box-inp">
-                            <select name="" class="inp" id="">
-                             <option value="" selected disabled>اختر نوع التذكرة</option>
-                             <option value="">Test1</option>
-                             <option value="">Test2</option>
-                            </select>
-                            <img src="./img/icons/chevron-down.svg" alt="" class="arrow">
+                            <div class="dollar">
+                             $
+                            </div>
                         </div>
                     </div>
                     <div class="mb-4">
                         <label for="" class="mian-label"
-                            >الوصف
-                            </label
+                            >طريقة السحب
+                            <span class="text-light-red">*</span></label
                         >
                         <div class="box-inp">
-                            <textarea
-                                name=""
-                                class="inp"
-                                maxlength="200"
-                                placeholder="اكتب الوصف هنا ......"
-                            ></textarea>
-                        </div>
+                         <select name="" class="inp" id="">
+                          <option value="">باي بال</option>
+                         </select>
+                         <img src="./img/icons/chevron-down.svg" alt="" class="arrow">
+                     </div>
                     </div>
-                    <button type="submit" class="main-btn">إنشاء تذكرة جديدة</button>
+                    <a href="" class="main-btn btn-float">
+                     <img src="./img/icons/wallet-02.svg" alt="" class="icon">
+                     سحب الرصيد
+                    </a>
                 </form>
             </div>
         </section>
