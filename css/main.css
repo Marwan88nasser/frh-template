@@ -986,6 +986,17 @@ input:focus::placeholder {
   font-weight: 400;
   line-height: normal;
 }
+.page-notifications .btn-profile {
+  margin: 20px 0;
+}
+.page-notifications .btn-profile a {
+  padding: 10px;
+  color: #0abab5;
+  border: #0abab5 2px solid;
+  border-radius: 5px;
+  margin: 20px 0;
+  background-color: #fff;
+}
 
 .client-balance .main-text {
   letter-spacing: -0.5px;
