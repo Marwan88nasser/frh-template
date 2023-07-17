@@ -36,7 +36,6 @@
 }
 
 .w-fit {
-  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -154,7 +153,6 @@
   margin-bottom: 21px;
 }
 .landing-slider .swiper-wrapper {
-  height: -moz-fit-content !important;
   height: fit-content !important;
 }
 .landing-slider .swiper-wrapper .swiper-slide a {
@@ -169,16 +167,13 @@
   margin-bottom: 21px;
 }
 .dep-slider .swiper-wrapper {
-  height: -moz-fit-content !important;
   height: fit-content !important;
 }
 .dep-slider .swiper-wrapper .swiper-slide {
-  width: -moz-fit-content !important;
   width: fit-content !important;
 }
 .dep-slider .swiper-wrapper .swiper-slide a {
   display: block;
-  width: -moz-fit-content;
   width: fit-content;
   display: flex;
   padding: 1px 10px;
@@ -260,8 +255,20 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+}
+.data-user .img-user .edit-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #0abab5;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
 }
 .data-user .name {
   color: #000;
@@ -270,6 +277,20 @@
   line-height: normal;
   letter-spacing: -0.5px;
   text-decoration: underline;
+}
+.data-user .name-vendor {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.data-user .taps {
+  margin: 10px 0;
+}
+.data-user .taps a {
+  margin: 0 20px;
+  color: #838383;
 }
 
 .menu-settings {
@@ -478,19 +499,13 @@
   font-weight: 400;
   padding: 11px 12px;
 }
-.box-inp .inp::-moz-placeholder {
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.4);
-}
 .box-inp .inp::placeholder {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.4);
 }
 .box-inp select.inp {
   padding-left: 32px;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 .box-inp textarea.inp {
   height: 120px;
@@ -528,7 +543,6 @@
   display: none;
 }
 .box-inp .dropdown .dropdown-menu {
-  min-width: -moz-fit-content !important;
   min-width: fit-content !important;
 }
 .box-inp .dropdown .dropdown-menu .dropdown-item .img {
@@ -639,12 +653,6 @@ button {
 input:focus,
 select:focus {
   outline: none;
-}
-
-input:focus::-moz-placeholder {
-  opacity: 0;
-  -moz-transition: 0.3s;
-  transition: 0.3s;
 }
 
 input:focus::placeholder {
@@ -810,7 +818,6 @@ input:focus::placeholder {
 .page-splashScreen .btn-arr {
   background-color: transparent;
   outline: none;
-  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto 10px;
   display: block;

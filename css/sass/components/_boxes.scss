@@ -110,6 +110,19 @@
             border-radius: 50%;
             object-fit: cover;
         }
+        .edit-active{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            background: $light-green;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            bottom: 0px;
+            left: 5px;
+        }
     }
     .name {
         color: #000;
@@ -118,6 +131,21 @@
         line-height: normal;
         letter-spacing: -0.5px;
         text-decoration: underline;
+    }
+    .name-vendor {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.5px;
+        
+    }
+    .taps{
+        margin: 10px 0;
+        a{
+            margin: 0 20px;
+            color: #838383;
+        }
     }
 }
 
