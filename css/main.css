@@ -534,6 +534,11 @@
   font-size: 13px;
   color: rgba(0, 0, 0, 0.4);
 }
+.box-inp .inp-ph {
+  border-radius: 6px;
+  border: 0.3px solid var(--585858, #585858);
+  background: #fff;
+}
 .box-inp select.inp {
   padding-left: 32px;
   appearance: none;
@@ -913,6 +918,16 @@ input:focus::placeholder {
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
+}
+.page-profile .box-text .head {
+  color: #6a6a6a;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 30px 0;
 }
 
 .page-resetPass .main-btn {
