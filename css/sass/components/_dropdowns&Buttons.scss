@@ -70,3 +70,18 @@ font-weight: 500;
 line-height: normal;
 text-decoration:underline ;
 }
+.btn-notic {
+    display: block;
+    background-color: transparent;
+    outline: 0;
+    position: relative;
+    img,.icon {
+        width: 24px;
+        height: auto;
+    }
+    .main-badge {
+        right: -5px !important;
+        top: -6px !important;
+        background-color: #F75555;
+    }
+}

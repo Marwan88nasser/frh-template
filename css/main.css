@@ -40,6 +40,7 @@
 }
 
 .w-fit {
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -132,6 +133,22 @@
   text-decoration: underline;
 }
 
+.btn-notic {
+  display: block;
+  background-color: transparent;
+  outline: 0;
+  position: relative;
+}
+.btn-notic img, .btn-notic .icon {
+  width: 24px;
+  height: auto;
+}
+.btn-notic .main-badge {
+  right: -5px !important;
+  top: -6px !important;
+  background-color: #F75555;
+}
+
 .main-badge {
   width: 18px;
   height: 18px;
@@ -193,6 +210,7 @@
   margin-bottom: 21px;
 }
 .landing-slider .swiper-wrapper {
+  height: -moz-fit-content !important;
   height: fit-content !important;
 }
 .landing-slider .swiper-wrapper .swiper-slide a {
@@ -207,13 +225,16 @@
   margin-bottom: 21px;
 }
 .dep-slider .swiper-wrapper {
+  height: -moz-fit-content !important;
   height: fit-content !important;
 }
 .dep-slider .swiper-wrapper .swiper-slide {
+  width: -moz-fit-content !important;
   width: fit-content !important;
 }
 .dep-slider .swiper-wrapper .swiper-slide a {
   display: block;
+  width: -moz-fit-content;
   width: fit-content;
   display: flex;
   padding: 1px 10px;
@@ -295,7 +316,8 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .data-user .img-user .edit-active {
   display: flex;
@@ -620,6 +642,162 @@
   color: #de7800;
 }
 
+.boxes-add-order {
+  margin-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+.boxes-add-order .box {
+  border-top: 1px solid #eee;
+  padding: 6px 16px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.boxes-add-order .box .data {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.boxes-add-order .box .data .img {
+  width: 76px;
+  height: auto;
+}
+.boxes-add-order .box .data .text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.boxes-add-order .box .data .text .name {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+}
+.boxes-add-order .box .data .text .dep {
+  color: #707070;
+  text-align: right;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+}
+.boxes-add-order .box .data .text .tax {
+  color: #4c4c4c;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: normal;
+}
+.boxes-add-order .box .data .text .price {
+  color: #0abab5;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+}
+.boxes-add-order .box .control .remove {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: auto;
+  background-color: transparent;
+  outline: 0;
+  display: block;
+}
+.boxes-add-order .box .control .remove img,
+.boxes-add-order .box .control .remove .icon {
+  width: 20px;
+  height: auto;
+  margin-bottom: 31px;
+}
+.boxes-add-order .box .control .btns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.boxes-add-order .box .control .btns .btn-control {
+  width: 23px;
+  height: 23px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 2px;
+  border: 0.479px solid #0abab5;
+  background: #f5f5f5;
+  color: #000;
+  font-size: 13px;
+}
+.boxes-add-order .box .control .btns .num {
+  color: #000;
+  text-align: center;
+  font-size: 8.625px;
+  font-weight: 400;
+  line-height: 140%; /* 12.075px */
+}
+
+.box-vendor {
+  border-radius: 4px;
+  border: 1.5px solid #E0E0E0;
+  padding: 8px 13px;
+  text-align: center;
+}
+.box-vendor .img {
+  width: 99px;
+  height: 50px;
+  border-radius: 2px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.box-vendor .name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.box-vendor .dec {
+  color: #898A8D;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.box-vendor .city {
+  color: #898A8D;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  justify-content: center;
+  gap: 2px;
+}
+.box-vendor .city img.icon {
+  width: 14px;
+  height: auto;
+}
+.box-vendor .stars {
+  color: #808080;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  justify-content: center;
+  gap: 5px;
+}
+.box-vendor .stars img.icon {
+  width: 14px;
+  height: auto;
+}
+.box-vendor .main-btn {
+  border-radius: 6px !important;
+  padding: 2px 5px !important;
+  font-size: 14px !important;
+}
+
 .box-inp {
   border-radius: 6px;
   border: 0.3px solid rgba(88, 88, 88, 0.5411764706);
@@ -639,6 +817,10 @@
   font-weight: 400;
   padding: 11px 12px;
 }
+.box-inp .inp::-moz-placeholder {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+}
 .box-inp .inp::placeholder {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.4);
@@ -650,7 +832,9 @@
 }
 .box-inp select.inp {
   padding-left: 32px;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 .box-inp textarea.inp {
   height: 120px;
@@ -688,6 +872,7 @@
   display: none;
 }
 .box-inp .dropdown .dropdown-menu {
+  min-width: -moz-fit-content !important;
   min-width: fit-content !important;
 }
 .box-inp .dropdown .dropdown-menu .dropdown-item .img {
@@ -721,6 +906,7 @@
   gap: 5px;
   margin-bottom: 19px;
   padding-right: 11px;
+  padding-left: 11px;
   border-radius: 28px;
   background-color: #f8f8f8;
   width: 100%;
@@ -739,6 +925,17 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.5px;
+}
+.box-search .filter {
+  display: block;
+  background-color: transparent;
+  outline: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.box-search .filter .icon {
+  width: 24px;
+  height: auto;
 }
 
 .check-box {
@@ -828,6 +1025,12 @@ button {
 input:focus,
 select:focus {
   outline: none;
+}
+
+input:focus::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
 }
 
 input:focus::placeholder {
@@ -993,6 +1196,7 @@ input:focus::placeholder {
 .page-splashScreen .btn-arr {
   background-color: transparent;
   outline: none;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto 10px;
   display: block;

@@ -103,6 +103,7 @@
   gap: 5px;
   margin-bottom: 19px;
   padding-right: 11px;
+  padding-left: 11px;
   border-radius: 28px;
   background-color: #f8f8f8;
   width: 100%;
@@ -120,6 +121,16 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.5px;
+  }
+  .filter{
+    display: block;
+    background-color: transparent;
+    outline: 0;
+    width: fit-content;
+    .icon {
+      width: 24px;
+      height: auto;
+    }
   }
 }
 
